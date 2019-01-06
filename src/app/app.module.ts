@@ -7,6 +7,8 @@ import { GstAddComponent } from './gst-add/gst-add.component';
 import { GstGetComponent } from './gst-get/gst-get.component';
 import { GstEditComponent } from './gst-edit/gst-edit.component';
 
+import { SlimLoadingBarModule } from 'ng2-slim-loading-bar';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +18,8 @@ import { GstEditComponent } from './gst-edit/gst-edit.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SlimLoadingBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
